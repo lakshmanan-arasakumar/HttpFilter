@@ -1,0 +1,23 @@
+
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+}
+
+dependencies {
+    // This dependency is exported to consumers, that is to say found on their compile classpath.
+    api 'org.apache.commons:commons-math3:3.6.1'
+
+    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
+    implementation 'com.google.guava:guava:23.0'
+	implementation 'org.springframework:spring-context:5.1.5.RELEASE'
+	implementation 'org.springframework:spring-beans:5.1.5.RELEASE'
+	implementation 'org.slf4j:log4j-over-slf4j:1.7.26'
+	implementation 'org.apache.tomcat.embed:tomcat-embed-core:9.0.21'
+	
+    testImplementation 'junit:junit:4.12'
+}
+
+repositories {
+    mavenCentral()
+}
