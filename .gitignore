@@ -1,0 +1,38 @@
+### Build Output Directories (Combined) ###
+build/
+bin/
+classes/
+out/
+target/
+log/
+
+### Gradle ###
+.gradle/
+
+### Maven ###
+.mvn/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.settings/
+.classpath
+.project
+.metadata
+.springBeans
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+### OSX ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
