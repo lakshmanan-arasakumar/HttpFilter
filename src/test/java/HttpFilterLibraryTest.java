@@ -4,9 +4,9 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class LibraryTest {
+public class HttpFilterLibraryTest {
     @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
+        HttpFilterLibrary classUnderTest = new HttpFilterLibrary();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
 }
